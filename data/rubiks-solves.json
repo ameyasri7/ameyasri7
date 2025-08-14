@@ -1,0 +1,776 @@
+{
+  "solves": [
+    {
+      "id": 1734123456789,
+      "time": 12.34,
+      "date": "2024-01-15T10:30:00",
+      "notes": "Great solve! Smooth F2L and fast PLL",
+      "timestamp": 1734123456789
+    },
+    {
+      "id": 1734123456790,
+      "time": 14.67,
+      "date": "2024-01-15T11:15:00",
+      "notes": "Decent solve, struggled with OLL recognition",
+      "timestamp": 1734123456790
+    },
+    {
+      "id": 1734123456791,
+      "time": 11.89,
+      "date": "2024-01-15T12:00:00",
+      "notes": "PB! Amazing solve with perfect look-ahead",
+      "timestamp": 1734123456791
+    },
+    {
+      "id": 1734123456792,
+      "time": 13.45,
+      "date": "2024-01-15T14:20:00",
+      "notes": "Consistent solve, good cross",
+      "timestamp": 1734123456792
+    },
+    {
+      "id": 1734123456793,
+      "time": 15.23,
+      "date": "2024-01-15T16:45:00",
+      "notes": "Slow F2L, need to work on efficiency",
+      "timestamp": 1734123456793
+    },
+    {
+      "id": 1734123456794,
+      "time": 10.56,
+      "date": "2024-01-16T09:30:00",
+      "notes": "NEW PB! Sub-11! Perfect solve",
+      "timestamp": 1734123456794
+    },
+    {
+      "id": 1734123456795,
+      "time": 13.78,
+      "date": "2024-01-16T11:00:00",
+      "notes": "Good average solve",
+      "timestamp": 1734123456795
+    },
+    {
+      "id": 1734123456796,
+      "time": 12.91,
+      "date": "2024-01-16T13:15:00",
+      "notes": "Solid performance",
+      "timestamp": 1734123456796
+    },
+    {
+      "id": 1734123456797,
+      "time": 14.12,
+      "date": "2024-01-16T15:30:00",
+      "notes": "Decent solve",
+      "timestamp": 1734123456797
+    },
+    {
+      "id": 1734123456798,
+      "time": 11.23,
+      "date": "2024-01-16T17:45:00",
+      "notes": "Almost PB, great F2L",
+      "timestamp": 1734123456798
+    },
+    {
+      "id": 1734123456799,
+      "time": 13.89,
+      "date": "2024-01-17T08:20:00",
+      "notes": "Morning solve - warming up",
+      "timestamp": 1734123456799
+    },
+    {
+      "id": 1734123456800,
+      "time": 12.67,
+      "date": "2024-01-17T10:00:00",
+      "notes": "Getting better",
+      "timestamp": 1734123456800
+    },
+    {
+      "id": 1734123456801,
+      "time": 13.34,
+      "date": "2024-01-17T12:30:00",
+      "notes": "Consistent times",
+      "timestamp": 1734123456801
+    },
+    {
+      "id": 1734123456802,
+      "time": 15.67,
+      "date": "2024-01-17T14:45:00",
+      "notes": "Need to practice more",
+      "timestamp": 1734123456802
+    },
+    {
+      "id": 1734123456803,
+      "time": 12.45,
+      "date": "2024-01-17T16:20:00",
+      "notes": "Good solve",
+      "timestamp": 1734123456803
+    },
+    {
+      "id": 1734123456804,
+      "time": 13.78,
+      "date": "2024-01-18T09:15:00",
+      "notes": "Standard solve",
+      "timestamp": 1734123456804
+    },
+    {
+      "id": 1734123456805,
+      "time": 12.89,
+      "date": "2024-01-18T11:30:00",
+      "notes": "Feeling good today",
+      "timestamp": 1734123456805
+    },
+    {
+      "id": 1734123456806,
+      "time": 14.56,
+      "date": "2024-01-18T13:45:00",
+      "notes": "Struggled with recognition",
+      "timestamp": 1734123456806
+    },
+    {
+      "id": 1734123456807,
+      "time": 10.89,
+      "date": "2024-01-18T15:20:00",
+      "notes": "Another sub-11! Amazing",
+      "timestamp": 1734123456807
+    },
+    {
+      "id": 1734123456808,
+      "time": 13.23,
+      "date": "2024-01-18T17:00:00",
+      "notes": "End of session solve",
+      "timestamp": 1734123456808
+    },
+    {
+      "id": 1734123456809,
+      "time": 12.78,
+      "date": "2024-01-19T08:30:00",
+      "notes": "Morning practice",
+      "timestamp": 1734123456809
+    },
+    {
+      "id": 1734123456810,
+      "time": 14.12,
+      "date": "2024-01-19T10:15:00",
+      "notes": "Decent solve",
+      "timestamp": 1734123456810
+    },
+    {
+      "id": 1734123456811,
+      "time": 11.67,
+      "date": "2024-01-19T12:00:00",
+      "notes": "Good solve, almost PB",
+      "timestamp": 1734123456811
+    },
+    {
+      "id": 1734123456812,
+      "time": 13.45,
+      "date": "2024-01-19T14:30:00",
+      "notes": "Consistent",
+      "timestamp": 1734123456812
+    },
+    {
+      "id": 1734123456813,
+      "time": 15.34,
+      "date": "2024-01-19T16:45:00",
+      "notes": "Slow solve, need focus",
+      "timestamp": 1734123456813
+    },
+    {
+      "id": 1734123456814,
+      "time": 12.23,
+      "date": "2024-01-20T09:00:00",
+      "notes": "Good start to the day",
+      "timestamp": 1734123456814
+    },
+    {
+      "id": 1734123456815,
+      "time": 13.89,
+      "date": "2024-01-20T11:20:00",
+      "notes": "Standard solve",
+      "timestamp": 1734123456815
+    },
+    {
+      "id": 1734123456816,
+      "time": 11.45,
+      "date": "2024-01-20T13:40:00",
+      "notes": "Great solve!",
+      "timestamp": 1734123456816
+    },
+    {
+      "id": 1734123456817,
+      "time": 14.67,
+      "date": "2024-01-20T15:10:00",
+      "notes": "Decent",
+      "timestamp": 1734123456817
+    },
+    {
+      "id": 1734123456818,
+      "time": 12.91,
+      "date": "2024-01-20T17:30:00",
+      "notes": "Solid performance",
+      "timestamp": 1734123456818
+    },
+    {
+      "id": 1734123456819,
+      "time": 13.56,
+      "date": "2024-01-21T08:45:00",
+      "notes": "Morning solve",
+      "timestamp": 1734123456819
+    },
+    {
+      "id": 1734123456820,
+      "time": 11.78,
+      "date": "2024-01-21T10:30:00",
+      "notes": "Good solve!",
+      "timestamp": 1734123456820
+    },
+    {
+      "id": 1734123456821,
+      "time": 14.23,
+      "date": "2024-01-21T12:15:00",
+      "notes": "Decent",
+      "timestamp": 1734123456821
+    },
+    {
+      "id": 1734123456822,
+      "time": 12.67,
+      "date": "2024-01-21T14:00:00",
+      "notes": "Consistent",
+      "timestamp": 1734123456822
+    },
+    {
+      "id": 1734123456823,
+      "time": 15.89,
+      "date": "2024-01-21T16:20:00",
+      "notes": "Slow solve",
+      "timestamp": 1734123456823
+    },
+    {
+      "id": 1734123456824,
+      "time": 13.12,
+      "date": "2024-01-22T09:10:00",
+      "notes": "Good morning solve",
+      "timestamp": 1734123456824
+    },
+    {
+      "id": 1734123456825,
+      "time": 11.34,
+      "date": "2024-01-22T11:00:00",
+      "notes": "Great solve!",
+      "timestamp": 1734123456825
+    },
+    {
+      "id": 1734123456826,
+      "time": 14.45,
+      "date": "2024-01-22T13:30:00",
+      "notes": "Standard",
+      "timestamp": 1734123456826
+    },
+    {
+      "id": 1734123456827,
+      "time": 12.89,
+      "date": "2024-01-22T15:15:00",
+      "notes": "Solid",
+      "timestamp": 1734123456827
+    },
+    {
+      "id": 1734123456828,
+      "time": 13.78,
+      "date": "2024-01-22T17:00:00",
+      "notes": "End of session",
+      "timestamp": 1734123456828
+    },
+    {
+      "id": 1734123456829,
+      "time": 12.45,
+      "date": "2024-01-23T08:20:00",
+      "notes": "Morning practice",
+      "timestamp": 1734123456829
+    },
+    {
+      "id": 1734123456830,
+      "time": 11.67,
+      "date": "2024-01-23T10:10:00",
+      "notes": "Good solve!",
+      "timestamp": 1734123456830
+    },
+    {
+      "id": 1734123456831,
+      "time": 14.12,
+      "date": "2024-01-23T12:00:00",
+      "notes": "Decent",
+      "timestamp": 1734123456831
+    },
+    {
+      "id": 1734123456832,
+      "time": 13.34,
+      "date": "2024-01-23T14:30:00",
+      "notes": "Consistent",
+      "timestamp": 1734123456832
+    },
+    {
+      "id": 1734123456833,
+      "time": 15.23,
+      "date": "2024-01-23T16:15:00",
+      "notes": "Slow solve",
+      "timestamp": 1734123456833
+    },
+    {
+      "id": 1734123456834,
+      "time": 12.78,
+      "date": "2024-01-24T09:00:00",
+      "notes": "Good start",
+      "timestamp": 1734123456834
+    },
+    {
+      "id": 1734123456835,
+      "time": 11.89,
+      "date": "2024-01-24T11:20:00",
+      "notes": "Great solve!",
+      "timestamp": 1734123456835
+    },
+    {
+      "id": 1734123456836,
+      "time": 13.67,
+      "date": "2024-01-24T13:40:00",
+      "notes": "Standard",
+      "timestamp": 1734123456836
+    },
+    {
+      "id": 1734123456837,
+      "time": 14.89,
+      "date": "2024-01-24T15:10:00",
+      "notes": "Decent",
+      "timestamp": 1734123456837
+    },
+    {
+      "id": 1734123456838,
+      "time": 12.23,
+      "date": "2024-01-24T17:30:00",
+      "notes": "Solid end",
+      "timestamp": 1734123456838
+    },
+    {
+      "id": 1734123456839,
+      "time": 13.45,
+      "date": "2024-01-25T08:30:00",
+      "notes": "Morning solve",
+      "timestamp": 1734123456839
+    },
+    {
+      "id": 1734123456840,
+      "time": 10.78,
+      "date": "2024-01-25T10:15:00",
+      "notes": "NEW PB! Sub-11 again!",
+      "timestamp": 1734123456840
+    },
+    {
+      "id": 1734123456841,
+      "time": 14.12,
+      "date": "2024-01-25T12:00:00",
+      "notes": "Decent",
+      "timestamp": 1734123456841
+    },
+    {
+      "id": 1734123456842,
+      "time": 12.67,
+      "date": "2024-01-25T14:20:00",
+      "notes": "Good solve",
+      "timestamp": 1734123456842
+    },
+    {
+      "id": 1734123456843,
+      "time": 15.45,
+      "date": "2024-01-25T16:00:00",
+      "notes": "Slow solve",
+      "timestamp": 1734123456843
+    },
+    {
+      "id": 1734123456844,
+      "time": 13.23,
+      "date": "2024-01-26T09:10:00",
+      "notes": "Morning practice",
+      "timestamp": 1734123456844
+    },
+    {
+      "id": 1734123456845,
+      "time": 11.45,
+      "date": "2024-01-26T11:00:00",
+      "notes": "Great solve!",
+      "timestamp": 1734123456845
+    },
+    {
+      "id": 1734123456846,
+      "time": 14.67,
+      "date": "2024-01-26T13:30:00",
+      "notes": "Standard",
+      "timestamp": 1734123456846
+    },
+    {
+      "id": 1734123456847,
+      "time": 12.89,
+      "date": "2024-01-26T15:15:00",
+      "notes": "Solid",
+      "timestamp": 1734123456847
+    },
+    {
+      "id": 1734123456848,
+      "time": 13.78,
+      "date": "2024-01-26T17:00:00",
+      "notes": "End of session",
+      "timestamp": 1734123456848
+    },
+    {
+      "id": 1734123456849,
+      "time": 12.34,
+      "date": "2024-01-27T08:45:00",
+      "notes": "Good morning solve",
+      "timestamp": 1734123456849
+    },
+    {
+      "id": 1734123456850,
+      "time": 11.67,
+      "date": "2024-01-27T10:30:00",
+      "notes": "Great solve!",
+      "timestamp": 1734123456850
+    },
+    {
+      "id": 1734123456851,
+      "time": 14.23,
+      "date": "2024-01-27T12:15:00",
+      "notes": "Decent",
+      "timestamp": 1734123456851
+    },
+    {
+      "id": 1734123456852,
+      "time": 13.56,
+      "date": "2024-01-27T14:00:00",
+      "notes": "Consistent",
+      "timestamp": 1734123456852
+    },
+    {
+      "id": 1734123456853,
+      "time": 15.12,
+      "date": "2024-01-27T16:20:00",
+      "notes": "Slow solve",
+      "timestamp": 1734123456853
+    },
+    {
+      "id": 1734123456854,
+      "time": 12.78,
+      "date": "2024-01-28T09:00:00",
+      "notes": "Morning practice",
+      "timestamp": 1734123456854
+    },
+    {
+      "id": 1734123456855,
+      "time": 11.89,
+      "date": "2024-01-28T11:20:00",
+      "notes": "Good solve!",
+      "timestamp": 1734123456855
+    },
+    {
+      "id": 1734123456856,
+      "time": 14.45,
+      "date": "2024-01-28T13:40:00",
+      "notes": "Standard",
+      "timestamp": 1734123456856
+    },
+    {
+      "id": 1734123456857,
+      "time": 13.12,
+      "date": "2024-01-28T15:10:00",
+      "notes": "Solid",
+      "timestamp": 1734123456857
+    },
+    {
+      "id": 1734123456858,
+      "time": 12.67,
+      "date": "2024-01-28T17:30:00",
+      "notes": "Good end",
+      "timestamp": 1734123456858
+    },
+    {
+      "id": 1734123456859,
+      "time": 13.89,
+      "date": "2024-01-29T08:15:00",
+      "notes": "Morning solve",
+      "timestamp": 1734123456859
+    },
+    {
+      "id": 1734123456860,
+      "time": 11.23,
+      "date": "2024-01-29T10:00:00",
+      "notes": "Great solve!",
+      "timestamp": 1734123456860
+    },
+    {
+      "id": 1734123456861,
+      "time": 14.78,
+      "date": "2024-01-29T12:30:00",
+      "notes": "Decent",
+      "timestamp": 1734123456861
+    },
+    {
+      "id": 1734123456862,
+      "time": 12.45,
+      "date": "2024-01-29T14:15:00",
+      "notes": "Good solve",
+      "timestamp": 1734123456862
+    },
+    {
+      "id": 1734123456863,
+      "time": 15.34,
+      "date": "2024-01-29T16:00:00",
+      "notes": "Slow solve",
+      "timestamp": 1734123456863
+    },
+    {
+      "id": 1734123456864,
+      "time": 13.67,
+      "date": "2024-01-30T09:20:00",
+      "notes": "Morning practice",
+      "timestamp": 1734123456864
+    },
+    {
+      "id": 1734123456865,
+      "time": 11.56,
+      "date": "2024-01-30T11:10:00",
+      "notes": "Great solve!",
+      "timestamp": 1734123456865
+    },
+    {
+      "id": 1734123456866,
+      "time": 14.12,
+      "date": "2024-01-30T13:40:00",
+      "notes": "Standard",
+      "timestamp": 1734123456866
+    },
+    {
+      "id": 1734123456867,
+      "time": 12.91,
+      "date": "2024-01-30T15:20:00",
+      "notes": "Solid",
+      "timestamp": 1734123456867
+    },
+    {
+      "id": 1734123456868,
+      "time": 13.45,
+      "date": "2024-01-30T17:00:00",
+      "notes": "End of session",
+      "timestamp": 1734123456868
+    },
+    {
+      "id": 1734123456869,
+      "time": 12.23,
+      "date": "2024-01-31T08:30:00",
+      "notes": "Good morning solve",
+      "timestamp": 1734123456869
+    },
+    {
+      "id": 1734123456870,
+      "time": 11.78,
+      "date": "2024-01-31T10:15:00",
+      "notes": "Great solve!",
+      "timestamp": 1734123456870
+    },
+    {
+      "id": 1734123456871,
+      "time": 14.56,
+      "date": "2024-01-31T12:00:00",
+      "notes": "Decent",
+      "timestamp": 1734123456871
+    },
+    {
+      "id": 1734123456872,
+      "time": 13.12,
+      "date": "2024-01-31T14:30:00",
+      "notes": "Consistent",
+      "timestamp": 1734123456872
+    },
+    {
+      "id": 1734123456873,
+      "time": 15.67,
+      "date": "2024-01-31T16:15:00",
+      "notes": "Slow solve",
+      "timestamp": 1734123456873
+    },
+    {
+      "id": 1734123456874,
+      "time": 12.67,
+      "date": "2024-02-01T09:00:00",
+      "notes": "Morning practice",
+      "timestamp": 1734123456874
+    },
+    {
+      "id": 1734123456875,
+      "time": 11.34,
+      "date": "2024-02-01T11:20:00",
+      "notes": "Good solve!",
+      "timestamp": 1734123456875
+    },
+    {
+      "id": 1734123456876,
+      "time": 14.23,
+      "date": "2024-02-01T13:40:00",
+      "notes": "Standard",
+      "timestamp": 1734123456876
+    },
+    {
+      "id": 1734123456877,
+      "time": 12.89,
+      "date": "2024-02-01T15:10:00",
+      "notes": "Solid",
+      "timestamp": 1734123456877
+    },
+    {
+      "id": 1734123456878,
+      "time": 13.78,
+      "date": "2024-02-01T17:30:00",
+      "notes": "End of session",
+      "timestamp": 1734123456878
+    },
+    {
+      "id": 1734123456879,
+      "time": 12.45,
+      "date": "2024-02-02T08:45:00",
+      "notes": "Morning solve",
+      "timestamp": 1734123456879
+    },
+    {
+      "id": 1734123456880,
+      "time": 11.67,
+      "date": "2024-02-02T10:30:00",
+      "notes": "Great solve!",
+      "timestamp": 1734123456880
+    },
+    {
+      "id": 1734123456881,
+      "time": 14.67,
+      "date": "2024-02-02T12:15:00",
+      "notes": "Decent",
+      "timestamp": 1734123456881
+    },
+    {
+      "id": 1734123456882,
+      "time": 13.34,
+      "date": "2024-02-02T14:00:00",
+      "notes": "Consistent",
+      "timestamp": 1734123456882
+    },
+    {
+      "id": 1734123456883,
+      "time": 15.12,
+      "date": "2024-02-02T16:20:00",
+      "notes": "Slow solve",
+      "timestamp": 1734123456883
+    },
+    {
+      "id": 1734123456884,
+      "time": 12.78,
+      "date": "2024-02-03T09:10:00",
+      "notes": "Morning practice",
+      "timestamp": 1734123456884
+    },
+    {
+      "id": 1734123456885,
+      "time": 11.89,
+      "date": "2024-02-03T11:00:00",
+      "notes": "Good solve!",
+      "timestamp": 1734123456885
+    },
+    {
+      "id": 1734123456886,
+      "time": 14.45,
+      "date": "2024-02-03T13:30:00",
+      "notes": "Standard",
+      "timestamp": 1734123456886
+    },
+    {
+      "id": 1734123456887,
+      "time": 13.12,
+      "date": "2024-02-03T15:15:00",
+      "notes": "Solid",
+      "timestamp": 1734123456887
+    },
+    {
+      "id": 1734123456888,
+      "time": 12.67,
+      "date": "2024-02-03T17:00:00",
+      "notes": "Good end",
+      "timestamp": 1734123456888
+    },
+    {
+      "id": 1734123456889,
+      "time": 13.89,
+      "date": "2024-02-04T08:30:00",
+      "notes": "Morning solve",
+      "timestamp": 1734123456889
+    },
+    {
+      "id": 1734123456890,
+      "time": 11.23,
+      "date": "2024-02-04T10:15:00",
+      "notes": "Great solve!",
+      "timestamp": 1734123456890
+    },
+    {
+      "id": 1734123456891,
+      "time": 14.78,
+      "date": "2024-02-04T12:00:00",
+      "notes": "Decent",
+      "timestamp": 1734123456891
+    },
+    {
+      "id": 1734123456892,
+      "time": 12.91,
+      "date": "2024-02-04T14:30:00",
+      "notes": "Good solve",
+      "timestamp": 1734123456892
+    },
+    {
+      "id": 1734123456893,
+      "time": 15.34,
+      "date": "2024-02-04T16:15:00",
+      "notes": "Slow solve",
+      "timestamp": 1734123456893
+    },
+    {
+      "id": 1734123456894,
+      "time": 13.56,
+      "date": "2024-02-05T09:00:00",
+      "notes": "Morning practice",
+      "timestamp": 1734123456894
+    },
+    {
+      "id": 1734123456895,
+      "time": 11.45,
+      "date": "2024-02-05T11:20:00",
+      "notes": "Great solve!",
+      "timestamp": 1734123456895
+    },
+    {
+      "id": 1734123456896,
+      "time": 14.12,
+      "date": "2024-02-05T13:40:00",
+      "notes": "Standard",
+      "timestamp": 1734123456896
+    },
+    {
+      "id": 1734123456897,
+      "time": 12.67,
+      "date": "2024-02-05T15:10:00",
+      "notes": "Solid",
+      "timestamp": 1734123456897
+    },
+    {
+      "id": 1734123456898,
+      "time": 13.78,
+      "date": "2024-02-05T17:30:00",
+      "notes": "End of session",
+      "timestamp": 1734123456898
+    }
+  ],
+  "exportDate": "2024-02-05T18:00:00.000Z",
+  "version": "1.0"
+}

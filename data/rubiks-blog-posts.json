@@ -1,0 +1,76 @@
+{
+  "blogPosts": [
+    {
+      "id": 1734123456800,
+      "title": "Sub-11 PB! Breaking the 11-second barrier",
+      "category": "solves",
+      "tags": ["pb", "milestone", "sub11", "cfop"],
+      "content": "# Sub-11 Personal Best! 🎉\n\nToday I achieved something I've been working towards for months - a **10.56 second solve**! This is my first sub-11 solve and I'm absolutely thrilled.\n\n## What made this solve special:\n- **Perfect cross execution** - 4 moves, no pauses\n- **Smooth F2L pairs** - great look-ahead throughout\n- **Fast OLL recognition** - knew the case immediately\n- **Quick PLL execution** - U-perm in under 1 second\n\n## The solve breakdown:\n- Cross: ~1.2 seconds\n- F2L: ~5.8 seconds\n- OLL: ~2.1 seconds\n- PLL: ~1.4 seconds\n\nThis gives me confidence that I can consistently break the 12-second barrier. My goal now is to get more sub-11 solves and work towards a sub-10 PB!\n\n## Next steps:\n- Practice cross efficiency\n- Improve F2L look-ahead\n- Learn more OLL cases\n- Work on PLL recognition speed",
+      "isPrivate": false,
+      "date": "2024-01-16T09:30:00.000Z",
+      "timestamp": 1734123456800
+    },
+    {
+      "id": 1734123456801,
+      "title": "Learning Full OLL - Progress Update",
+      "category": "solves",
+      "tags": ["oll", "learning", "cfop", "progress"],
+      "content": "## OLL Learning Journey\n\nI've been working on learning Full OLL for the past few months, and I'm making steady progress. Currently at **42/57 cases learned**.\n\n### Recently learned cases:\n1. **OLL 21** - The classic 'Sune' case\n2. **OLL 22** - The 'Anti-Sune' case\n3. **OLL 23** - The 'H' case\n4. **OLL 24** - The 'Pi' case\n5. **OLL 25** - The 'U' case\n\n### Practice strategy:\n- **10 minutes daily** dedicated to OLL drilling\n- **Recognition practice** with timer pressure\n- **Algorithm refinement** for speed\n- **Case grouping** by similarity\n\n### Impact on my solves:\nMy average has dropped from ~14.5 to ~13.5 seconds since starting Full OLL. The recognition speed is improving, and I'm getting fewer 'slow' OLLs.\n\n### Remaining cases (15 left):\n- OLL 26-30: Various corner cases\n- OLL 31-35: Edge orientation cases\n- OLL 36-40: Mixed cases\n\nGoal: Complete Full OLL by the end of February! 📚",
+      "isPrivate": false,
+      "date": "2024-01-15T14:00:00.000Z",
+      "timestamp": 1734123456801
+    },
+    {
+      "id": 1734123456802,
+      "title": "First WCA Competition Registration!",
+      "category": "news",
+      "tags": ["competition", "wca", "first-time", "goals"],
+      "content": "# My First WCA Competition! 🏆\n\nI just registered for my first official WCA competition - the **Spring Speedcubing Championship** in March! I'm both excited and nervous.\n\n## My goals for the competition:\n- **3x3 Single**: Sub-11 (current PB: 10.56)\n- **3x3 Average**: Sub-13 (current Ao5: 12.34)\n- **Have fun and meet other cubers!**\n- **Don't get too nervous and mess up** 😅\n\n## Preparation plan:\n### Daily practice (next 6 weeks):\n- **Morning sessions**: 30 minutes focused practice\n- **Evening sessions**: 45 minutes timed solves\n- **Weekend sessions**: Mock competitions\n\n### Specific focus areas:\n- **Inspection time management** (15 seconds)\n- **Pressure resistance** - practice with timer\n- **Consistency over speed** - aim for sub-14 average\n- **Cross planning** - plan full cross in inspection\n\n### Equipment:\n- **Main cube**: GAN 356 M (magnetic)\n- **Backup cube**: MoYu WeiLong GTS3M\n- **Timer**: Speedstacks Stackmat\n- **Lubricant**: DNM-37 for speed\n\nWish me luck! I'll post updates on my progress leading up to the competition. 🤞",
+      "isPrivate": false,
+      "date": "2024-01-14T16:30:00.000Z",
+      "timestamp": 1734123456802
+    },
+    {
+      "id": 1734123456803,
+      "title": "F2L Efficiency Analysis",
+      "category": "solves",
+      "tags": ["f2l", "efficiency", "analysis", "improvement"],
+      "content": "## F2L Efficiency Deep Dive\n\nI've been analyzing my F2L efficiency lately and found some interesting patterns in my solves.\n\n### Current F2L performance:\n- **Average F2L time**: ~6.2 seconds\n- **Best F2L time**: ~4.8 seconds (in my 10.56 PB)\n- **Worst F2L time**: ~8.1 seconds (in slow solves)\n\n### Common inefficiencies I've identified:\n1. **Rotations**: Too many cube rotations during F2L\n2. **Look-ahead**: Pausing between pairs\n3. **Pair insertion**: Not using optimal algs for some cases\n4. **Cross to F2L transition**: Hesitation after cross\n\n### Improvement strategies:\n\n#### 1. Reduce Rotations\n- Learn **rotationless F2L** cases\n- Practice **back slot** insertions\n- Use **wide moves** when beneficial\n\n#### 2. Improve Look-ahead\n- **Drill F2L pairs** without timer\n- Practice **slow solves** focusing on look-ahead\n- Use **metronome training** for rhythm\n\n#### 3. Optimize Algorithms\n- Learn **advanced F2L** cases\n- Practice **multislotting** techniques\n- Master **keyhole** method for some cases\n\n### Target goals:\n- **F2L average**: Sub-5.5 seconds\n- **Consistency**: Less than 2-second variance\n- **Look-ahead**: No pauses between pairs\n\nThis should help me break the 10-second barrier consistently! 🎯",
+      "isPrivate": false,
+      "date": "2024-01-13T10:15:00.000Z",
+      "timestamp": 1734123456803
+    },
+    {
+      "id": 1734123456804,
+      "title": "New Cube Setup - GAN 356 M",
+      "category": "other",
+      "tags": ["cube", "setup", "gan", "hardware"],
+      "content": "# New Cube Setup: GAN 356 M\n\nI finally got my hands on a **GAN 356 M** and spent the weekend setting it up. Here's my experience:\n\n## Initial impressions:\n- **Out of the box**: Very smooth, but too fast\n- **Magnets**: Strong and snappy\n- **Corner cutting**: Excellent (45+ degrees)\n- **Weight**: Light but not too light\n\n## Setup process:\n\n### 1. Disassembly and cleaning\n- Removed factory lube\n- Cleaned all pieces thoroughly\n- Applied **DNM-37** to core\n\n### 2. Tension adjustment\n- Started with **medium tension**\n- Adjusted to **slightly loose** for speed\n- **Magnet strength**: Kept stock (strong)\n\n### 3. Lubrication\n- **Core**: DNM-37 (light application)\n- **Pieces**: Weight 5 (medium application)\n- **Springs**: Lubicle 1 (light application)\n\n## After setup:\n- **Speed**: Perfect for my turning style\n- **Control**: Excellent, no lockups\n- **Feel**: Smooth and buttery\n- **Sound**: Quiet and satisfying\n\n## Performance impact:\nMy average dropped by about **0.3 seconds** immediately after switching to this cube. The magnets really help with stability during fast solves.\n\n## Maintenance plan:\n- **Weekly**: Light DNM-37 application\n- **Monthly**: Full cleaning and relube\n- **As needed**: Tension adjustments\n\nThis cube feels like it could be my main for a long time! 🧩",
+      "isPrivate": false,
+      "date": "2024-01-12T14:45:00.000Z",
+      "timestamp": 1734123456804
+    },
+    {
+      "id": 1734123456805,
+      "title": "PLL Recognition Improvement",
+      "category": "solves",
+      "tags": ["pll", "recognition", "improvement", "cfop"],
+      "content": "## PLL Recognition Breakthrough\n\nI've been working on improving my PLL recognition speed, and I'm seeing significant progress!\n\n### Current PLL performance:\n- **Average PLL time**: ~1.8 seconds\n- **Best PLL time**: ~1.2 seconds\n- **Recognition time**: ~0.8 seconds (down from 1.5+)\n\n### Recognition improvement techniques:\n\n#### 1. Color-based recognition\n- **Headlights method**: Looking for solved corners\n- **Bar method**: Identifying edge bars\n- **Color patterns**: Memorizing common patterns\n\n#### 2. Practice methods\n- **PLL time attack**: All 21 PLLs as fast as possible\n- **Recognition drills**: Identify PLL without solving\n- **Blind PLL**: Solve PLL without looking\n\n#### 3. Algorithm optimization\n- **Finger tricks**: Optimized for my hand size\n- **Regrips**: Minimized during execution\n- **Algorithm variants**: Using fastest variants for me\n\n### Most improved PLLs:\n1. **T-perm**: 1.4s → 1.1s\n2. **Y-perm**: 1.8s → 1.3s\n3. **J-perm**: 1.6s → 1.2s\n4. **A-perm**: 1.5s → 1.1s\n\n### Next goals:\n- **Sub-1 second** for all PLLs\n- **Sub-0.5 second** recognition\n- **Consistent execution** under pressure\n\nThis improvement has been a major factor in my recent PB! 🚀",
+      "isPrivate": false,
+      "date": "2024-01-11T16:20:00.000Z",
+      "timestamp": 1734123456805
+    },
+    {
+      "id": 1734123456806,
+      "title": "Cross Planning Mastery",
+      "category": "solves",
+      "tags": ["cross", "planning", "inspection", "improvement"],
+      "content": "# Cross Planning Progress\n\nI've been focusing heavily on cross planning during inspection time, and it's paying off!\n\n## Current cross performance:\n- **Average cross time**: ~1.8 seconds\n- **Best cross time**: ~1.1 seconds\n- **Planning success rate**: ~85% (up from 60%)\n\n## Cross planning techniques I'm using:\n\n### 1. Color neutrality\n- **Primary color**: White (most comfortable)\n- **Secondary**: Yellow (getting better)\n- **Goal**: Full color neutrality\n\n### 2. Planning methods\n- **Piece tracking**: Follow each edge piece\n- **Move counting**: Plan exact sequence\n- **Efficiency focus**: Minimize moves\n\n### 3. Inspection strategies\n- **0-5 seconds**: Identify best cross color\n- **5-10 seconds**: Plan full cross solution\n- **10-15 seconds**: Visualize execution\n\n## Recent improvements:\n- **Move efficiency**: Average 6.2 moves (down from 7.8)\n- **Execution speed**: Faster with better planning\n- **Consistency**: More reliable cross times\n\n## Practice routine:\n- **Cross-only solves**: 10 minutes daily\n- **Inspection practice**: 15-second timer\n- **Move optimization**: Analyze solutions\n\n## Target goals:\n- **Sub-1.5 second** average cross\n- **Sub-6 moves** average\n- **95% planning success** rate\n\nThis foundation improvement is crucial for breaking the 10-second barrier! 🎯",
+      "isPrivate": false,
+      "date": "2024-01-10T11:30:00.000Z",
+      "timestamp": 1734123456806
+    }
+  ],
+  "exportDate": "2024-02-05T18:00:00.000Z",
+  "version": "1.0"
+}

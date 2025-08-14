@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rubik's Cube Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="cube-icon">🧩</span>
+                <h1>Rubik's Tracker</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#dashboard" class="nav-link active">Dashboard</a></li>
+                <li><a href="#progress" class="nav-link">Progress</a></li>
+                <li><a href="#blog" class="nav-link">Blog</a></li>
+                <li><a href="#stats" class="nav-link">Stats</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Dashboard Section -->
+        <section id="dashboard" class="section active">
+            <div class="container">
+                <h2>Dashboard</h2>
+                <div class="dashboard-grid">
+                    <div class="card">
+                        <h3>Quick Stats</h3>
+                        <div class="stats-grid">
+                            <div class="stat-item">
+                                <span class="stat-label">Best Single</span>
+                                <span class="stat-value" id="best-single">--</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">Best Ao5</span>
+                                <span class="stat-value" id="best-ao5">--</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">Best Ao12</span>
+                                <span class="stat-value" id="best-ao12">--</span>
+                            </div>
+
+                        </div>
+                    </div>
+                    
+                    <div class="card">
+                        <h3>Add New Solve</h3>
+                        <form id="solve-form" class="solve-form">
+                            <div class="form-group">
+                                <label for="solve-time">Time (seconds) or DNF</label>
+                                <input type="text" id="solve-time" placeholder="12.34 or DNF" required>
+                                <small class="help-text">Enter time in seconds (e.g., 12.34) or DNF for Did Not Finish</small>
+                            </div>
+                            <div class="form-group">
+                                <label for="solve-date">Date</label>
+                                <input type="datetime-local" id="solve-date" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="solve-scramble">Scramble</label>
+                                <div class="scramble-input-group">
+                                    <input type="text" id="solve-scramble" readonly>
+                                    <button type="button" id="generate-scramble" class="btn btn-secondary">Generate</button>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="solve-notes">Notes (optional)</label>
+                                <textarea id="solve-notes" rows="2"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Add Solve</button>
+                        </form>
+                    </div>
+
+                    <div class="card">
+                        <h3>Recent Solves</h3>
+                        <div id="recent-solves" class="recent-solves">
+                            <p class="empty-state">No solves recorded yet. Add your first solve!</p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <h3>Data Management</h3>
+                        <div class="data-management">
+                            <div class="data-section">
+                                <h4>Import Data</h4>
+                                <input type="file" id="csv-file" accept=".csv" class="file-input">
+                                <label for="csv-file" class="btn btn-secondary">Import CSV</label>
+                                <p class="help-text">Upload a CSV file with format: No;Time;Comment;Scramble;Date;TimewithPenalty</p>
+                                
+                                <input type="file" id="json-file" accept=".json" class="file-input">
+                                <label for="json-file" class="btn btn-secondary">Import JSON</label>
+                                <p class="help-text">Import previously exported data</p>
+                            </div>
+                            
+                            <div class="data-section">
+                                <h4>Export Data</h4>
+                                <button id="export-solves" class="btn btn-primary">Export Solves (JSON)</button>
+                                <button id="export-solves-csv" class="btn btn-primary">Export Solves (CSV)</button>
+                                <button id="export-posts" class="btn btn-primary">Export Blog Posts</button>
+                                <button id="export-all" class="btn btn-primary">Export All Data</button>
+                                <p class="help-text">Download data as JSON files for GitHub backup or CSV for external tools</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Progress Section -->
+        <section id="progress" class="section">
+            <div class="container">
+                <h2>Progress Visualization</h2>
+                <div class="progress-controls">
+                    <div class="chart-controls">
+                        <label for="chart-type">Chart Type:</label>
+                        <select id="chart-type">
+                            <option value="line">Line Chart</option>
+                            <option value="scatter">Scatter Plot</option>
+                        </select>
+                        <label for="time-range">Time Range:</label>
+                        <select id="time-range">
+                            <option value="7" selected>Last 7 days</option>
+                            <option value="30">Last 30 days</option>
+                            <option value="90">Last 90 days</option>
+                            <option value="all">All time</option>
+                        </select>
+                    </div>
+                </div>
+                
+                <div class="charts-grid">
+                    <div class="card">
+                        <h3>Best Single Progress</h3>
+                        <canvas id="best-single-chart"></canvas>
+                    </div>
+                    <div class="card">
+                        <h3>Ao5 Progress</h3>
+                        <canvas id="ao5-chart"></canvas>
+                    </div>
+                    <div class="card">
+                        <h3>Ao12 Progress</h3>
+                        <canvas id="ao12-chart"></canvas>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Blog Section -->
+        <section id="blog" class="section">
+            <div class="container">
+                <div class="blog-header">
+                    <h2>Blog & Journal</h2>
+                    <button id="new-post-btn" class="btn btn-primary">New Post</button>
+                </div>
+
+                <div class="blog-filters">
+                    <div class="filter-group">
+                        <label for="category-filter">Category:</label>
+                        <select id="category-filter">
+                            <option value="all">All Categories</option>
+                            <option value="solves">Solves</option>
+                            <option value="news">News</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label for="tag-filter">Tag:</label>
+                        <select id="tag-filter">
+                            <option value="all">All Tags</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label>
+                            <input type="checkbox" id="show-private"> Show Private Posts
+                        </label>
+                    </div>
+                </div>
+
+                <div id="blog-posts" class="blog-posts">
+                    <p class="empty-state">No blog posts yet. Create your first post!</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Stats Section -->
+        <section id="stats" class="section">
+            <div class="container">
+                <h2>Statistics</h2>
+                <div class="stats-grid-large">
+                    <div class="card">
+                        <h3>Overall Statistics</h3>
+                        <div class="stats-list" id="overall-stats">
+                            <div class="stat-row">
+                                <span>Total Solves:</span>
+                                <span id="total-solves">0</span>
+                            </div>
+                            <div class="stat-row">
+                                <span>Average Time:</span>
+                                <span id="avg-time">--</span>
+                            </div>
+                            <div class="stat-row">
+                                <span>Standard Deviation:</span>
+                                <span id="std-dev">--</span>
+                            </div>
+                            <div class="stat-row">
+                                <span>Best Time:</span>
+                                <span id="best-time">--</span>
+                            </div>
+                            <div class="stat-row">
+                                <span>Worst Time:</span>
+                                <span id="worst-time">--</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <h3>Time Distribution</h3>
+                        <canvas id="distribution-chart"></canvas>
+                    </div>
+
+                    <div class="card">
+                        <h3>Progress Over Time</h3>
+                        <canvas id="progress-chart"></canvas>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Modal for New Blog Post -->
+    <div id="post-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>New Blog Post</h3>
+                <span class="close">&times;</span>
+            </div>
+            <form id="blog-form">
+                <div class="form-group">
+                    <label for="post-title">Title</label>
+                    <input type="text" id="post-title" required>
+                </div>
+                <div class="form-group">
+                    <label for="post-category">Category</label>
+                    <select id="post-category" required>
+                        <option value="solves">Solves</option>
+                        <option value="news">News</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="post-tags">Tags (comma-separated)</label>
+                    <input type="text" id="post-tags" placeholder="pb, competition, cfop">
+                </div>
+                <div class="form-group">
+                    <label for="post-content">Content (Markdown supported)</label>
+                    <textarea id="post-content" rows="10" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label>
+                        <input type="checkbox" id="post-private"> Private Post
+                    </label>
+                </div>
+                <div class="form-actions">
+                    <button type="button" id="preview-btn" class="btn btn-secondary">Preview</button>
+                    <button type="submit" class="btn btn-primary">Save Post</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Modal for Blog Post Preview -->
+    <div id="preview-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Post Preview</h3>
+                <span class="close">&times;</span>
+            </div>
+            <div id="preview-content" class="preview-content"></div>
+        </div>
+    </div>
+
+    <!-- Modal for Solve Details -->
+    <div id="solve-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Solve Details</h3>
+                <span class="close">&times;</span>
+            </div>
+            <div id="solve-details" class="solve-details">
+                <div class="solve-detail-item">
+                    <span class="detail-label">Time:</span>
+                    <span id="detail-time" class="detail-value"></span>
+                </div>
+                <div class="solve-detail-item">
+                    <span class="detail-label">Date:</span>
+                    <span id="detail-date" class="detail-value"></span>
+                </div>
+                <div class="solve-detail-item">
+                    <span class="detail-label">Scramble:</span>
+                    <span id="detail-scramble" class="detail-value scramble-text"></span>
+                </div>
+                <div class="solve-detail-item">
+                    <span class="detail-label">Notes:</span>
+                    <span id="detail-notes" class="detail-value"></span>
+                </div>
+                <div class="solve-detail-item" id="penalty-item" style="display: none;">
+                    <span class="detail-label">Time with Penalty:</span>
+                    <span id="detail-penalty" class="detail-value"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
